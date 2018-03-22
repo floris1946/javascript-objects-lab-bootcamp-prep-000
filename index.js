@@ -5,16 +5,16 @@ function updateObjectWithKeyAndValue(object, key, value) {
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
-  object[key] = value
-  return object
+  object[key] = value;
+  return object;
 }
 
 var newObj = {}
 
 function deleteFromObjectByKey(object, key) {
   newObj = Object.assign({}, object);
-  delete newObj.key
-  return newObj
+  delete newObj.key;
+  return newObj;
 }
 
 console.log(updateObjectWithKeyAndValue(recipes, 'lol', 'pizza'))
