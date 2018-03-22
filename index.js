@@ -17,6 +17,10 @@ function deleteFromObjectByKey(object, key) {
   return newObj;
 }
 
+function destructivelyDeleteFromObjectByKey(object, key) {
+  
+}
+
 console.log(updateObjectWithKeyAndValue(recipes, 'lol', 'pizza'))
 console.log(deleteFromObjectByKey(recipes, 'lol'))
 
